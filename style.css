@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f7ff; 
+    color: #333;
+}
+
+
+header {
+    background: #0077c2; 
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #cfe8ff; 
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #0077c2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #005b94; 
+}
+
+
+.produk-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.produk-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.tentang, .kontak {
+    padding: 40px 20px;
+    text-align: center;
+    background: #e1f0ff; 
+    margin-top: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #0077c2;
+    color: white;
+    margin-top: 20px;
+}
