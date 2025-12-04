@@ -1,4 +1,11 @@
-/* Import font dari file lokal */
+/@font-face {
+    font-family: 'ChristmasChocho';
+    src: url('fonts/Christmas_Chocho.ttf') format('truetype');
+}
+
+header h1, .hero, h2 {
+    font-family: 'ChristmasChocho', cursive;
+}
 @font-face {
     font-family: 'ChristmasChocho';
     src: url('fonts/ChristmasChocho.ttf') format('truetype');
@@ -105,3 +112,4 @@ footer {
     color: #F5E6D3;
     margin-top: 20px;
 }
+
