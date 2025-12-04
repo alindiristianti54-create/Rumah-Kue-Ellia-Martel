@@ -1,6 +1,6 @@
 /@font-face {
     font-family: 'ChristmasChocho';
-    src: url('fonts/Christmas_Chocho.ttf') format('truetype');
+    src: url('https://github.com/alindiristianti54-create/Rumah-Kue-Ellia-Martel/blob/main/christmas_chocho.zip') format('truetype');
 }
 
 header h1, .hero, h2 {
@@ -8,7 +8,7 @@ header h1, .hero, h2 {
 }
 @font-face {
     font-family: 'ChristmasChocho';
-    src: url('fonts/ChristmasChocho.ttf') format('truetype');
+    src: url('https://github.com/alindiristianti54-create/Rumah-Kue-Ellia-Martel/blob/main/christmas_chocho.zip') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -112,4 +112,5 @@ footer {
     color: #F5E6D3;
     margin-top: 20px;
 }
+
 
