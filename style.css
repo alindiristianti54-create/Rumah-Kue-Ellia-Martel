@@ -1,14 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #F5E6D3; /* cream */
-    color: #5C3A21; /* coklat tua */
+    background: #F5E6D3; 
+    color: #5C3A21; 
 }
 
 header {
-    background: #5C3A21; /* coklat tua */
+    background: #5C3A21; 
     padding: 20px;
-    color: #F5E6D3; /* teks cream */
+    color: #F5E6D3; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,14 +26,14 @@ nav a {
 }
 
 nav a:hover {
-    color: #C9A66B; /* gold */
+    color: #C9A66B; 
     text-decoration: underline;
 }
 
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: #C9A66B; /* gold */
+    background: #C9A66B; 
     color: #3F2A1D;
 }
 
@@ -43,7 +43,7 @@ nav a:hover {
 }
 
 .btn {
-    background: #5C3A21; /* tombol coklat tua */
+    background: #5C3A21; 
     color: #F5E6D3;
     padding: 10px 20px;
     border-radius: 8px;
@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 .btn:hover {
-    background: #3F2A1D; /* coklat lebih gelap */
+    background: #3F2A1D; 
 }
 
 .produk-section {
@@ -94,3 +94,4 @@ footer {
     color: #F5E6D3;
     margin-top: 20px;
 }
+
