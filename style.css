@@ -16,7 +16,7 @@ header h1, .hero, h2 {
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif; /* Font isi */
+    font-family: Arial, ChristmasHeart; /* Font isi */
     background: #F5E6D3; /* cream */
     color: #5C3A21; /* coklat tua */
 }
@@ -32,7 +32,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-family: 'ChristmasChocho', cursive; /* Font judul */
+    font-family: 'ChristmasChocho', ChristmasHeart; /* Font judul */
 }
 
 nav a {
@@ -52,7 +52,7 @@ nav a:hover {
     padding: 80px 20px;
     background: #C9A66B;
     color: #3F2A1D;
-    font-family: 'ChristmasChocho', cursive; /* Font hero */
+    font-family: 'ChristmasChocho', ChristmasHeart; /* Font hero */
 }
 
 .hero h2 {
@@ -112,5 +112,6 @@ footer {
     color: #F5E6D3;
     margin-top: 20px;
 }
+
 
 
