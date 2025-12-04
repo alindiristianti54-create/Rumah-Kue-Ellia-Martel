@@ -1,3 +1,12 @@
+/* Import font dari file lokal */
+@font-face {
+    font-family: 'ChristmasChocho';
+    src: url('fonts/ChristmasChocho.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif; /* Font isi */
@@ -16,7 +25,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-family: 'https://github.com/alindiristianti54-create/Rumah-Kue-Ellia-Martel/blob/main/christmas_chocho.zip', cursive; /* Font judul */
+    font-family: 'ChristmasChocho', cursive; /* Font judul */
 }
 
 nav a {
@@ -36,7 +45,7 @@ nav a:hover {
     padding: 80px 20px;
     background: #C9A66B;
     color: #3F2A1D;
-    font-family: 'Christmas Lights', cursive; /* Font bagian hero */
+    font-family: 'ChristmasChocho', cursive; /* Font hero */
 }
 
 .hero h2 {
@@ -96,4 +105,3 @@ footer {
     color: #F5E6D3;
     margin-top: 20px;
 }
-
