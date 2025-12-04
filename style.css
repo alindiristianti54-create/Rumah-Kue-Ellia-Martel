@@ -1,14 +1,14 @@
 body {
     margin: 0;
-    font-family: christmas choco, arial;
+    font-family: Arial, sans-serif; 
     background: #F5E6D3; 
     color: #5C3A21; 
 }
 
 header {
-    background: #5C3A21; 
+    background: #5C3A21;
     padding: 20px;
-    color: #F5E6D3; 
+    color: #F5E6D3;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,6 +16,7 @@ header {
 
 header h1 {
     margin: 0;
+    font-family: 'Christmas Choco', cursive; 
 }
 
 nav a {
@@ -26,15 +27,16 @@ nav a {
 }
 
 nav a:hover {
-    color: #C9A66B; 
+    color: #C9A66B;
     text-decoration: underline;
 }
 
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: #C9A66B; 
+    background: #C9A66B;
     color: #3F2A1D;
+    font-family: 'Christmas Choco', cursive;
 }
 
 .hero h2 {
@@ -43,7 +45,7 @@ nav a:hover {
 }
 
 .btn {
-    background: #5C3A21; 
+    background: #5C3A21;
     color: #F5E6D3;
     padding: 10px 20px;
     border-radius: 8px;
@@ -52,7 +54,7 @@ nav a:hover {
 }
 
 .btn:hover {
-    background: #3F2A1D; 
+    background: #3F2A1D;
 }
 
 .produk-section {
@@ -94,5 +96,3 @@ footer {
     color: #F5E6D3;
     margin-top: 20px;
 }
-
-
