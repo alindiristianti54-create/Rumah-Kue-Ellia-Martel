@@ -1,15 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f0f7ff; 
-    color: #333;
+    background: #F5E6D3; /* cream */
+    color: #5C3A21; /* coklat tua */
 }
 
-
 header {
-    background: #0077c2; 
+    background: #5C3A21; /* coklat tua */
     padding: 20px;
-    color: #fff;
+    color: #F5E6D3; /* teks cream */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,21 +19,22 @@ header h1 {
 }
 
 nav a {
-    color: white;
+    color: #F5E6D3;
     margin-left: 20px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
+    color: #C9A66B; /* gold */
     text-decoration: underline;
 }
-
 
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: #cfe8ff; 
+    background: #C9A66B; /* gold */
+    color: #3F2A1D;
 }
 
 .hero h2 {
@@ -43,18 +43,17 @@ nav a:hover {
 }
 
 .btn {
-    background: #0077c2;
-    color: white;
+    background: #5C3A21; /* tombol coklat tua */
+    color: #F5E6D3;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
 }
 
 .btn:hover {
-    background: #005b94; 
+    background: #3F2A1D; /* coklat lebih gelap */
 }
-
 
 .produk-section {
     padding: 40px 20px;
@@ -69,11 +68,11 @@ nav a:hover {
 }
 
 .card {
-    background: white;
+    background: #FFFFFF;
     border-radius: 10px;
     padding: 15px;
     width: 250px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .card img {
@@ -81,19 +80,17 @@ nav a:hover {
     border-radius: 10px;
 }
 
-
 .tentang, .kontak {
     padding: 40px 20px;
     text-align: center;
-    background: #e1f0ff; 
+    background: #F5E6D3;
     margin-top: 20px;
 }
-
 
 footer {
     text-align: center;
     padding: 15px;
-    background: #0077c2;
-    color: white;
+    background: #5C3A21;
+    color: #F5E6D3;
     margin-top: 20px;
 }
